@@ -1,0 +1,22 @@
+{
+    "name": "carosel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass --watch src/styles:public/stylesheets"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rothkoros/Mtechcarosel.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Rothkoros/Mtechcarosel/issues"
+    },
+    "homepage": "https://github.com/Rothkoros/Mtechcarosel#readme"
+}
