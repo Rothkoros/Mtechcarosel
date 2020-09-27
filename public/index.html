@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,38 +29,38 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/public/img/536413-gettyimages-1077470274.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Dog1</h5>
-                    <p>...</p>
+                <img class="d-block w-100 mx-auto" src="/public/img/536413-gettyimages-1077470274.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block target-text">
+                    <h5><mark class="markstyle">German Shephard</mark></h5>
+                    <p><mark class="markstyle">So majestic</mark></p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/public/img/puppy2.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>dog2</h5>
-                    <p>...</p>
+                <img class="d-block w-100 mx-auto" src="/public/img/puppy2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block target-text">
+                    <h5><mark class="markstyle">Labrador Retriever</mark></h5>
+                    <p><mark class="markstyle">cute overload</mark></p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/public/img/puppies-cover.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>dog3</h5>
-                    <p>...</p>
+                <img class="d-block w-100 mx-auto" src="/public/img/puppies-cover.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block target-text">
+                    <h5><mark class="markstyle">Golden Retriever</mark></h5>
+                    <p><mark class="markstyle">All the handsoms</mark></p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/public/img/puppy4.jpeg" alt="fourth slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>dog3</h5>
-                    <p>...</p>
+                <img class="d-block w-100 mx-auto" src="/public/img/puppy4.jpeg" alt="fourth slide">
+                <div class="carousel-caption d-none d-md-block target-text">
+                    <h5><mark class="markstyle">Pug</mark></h5>
+                    <p><mark class="markstyle">Give that pug a hug</mark></p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/public/img/puppy5.jpg" alt="fifth slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>dog3</h5>
-                    <p>...</p>
+            <div class="carousel-item mx-auto">
+                <img class="d-block w-100 mx-auto" src="/public/img/puppy5.jpg" alt="fifth slide">
+                <div class="carousel-caption d-none d-md-block target-text">
+                    <h5><mark class="markstyle">Husky</mark></h5>
+                    <p><mark class="markstyle">Too soft to handle</mark></p>
                 </div>
             </div>
         </div>
@@ -77,31 +77,53 @@
     <div class="container">
         <div class="row">
             <div class="card col" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="card-body dogcard">
+                    <h5 class="card-title">Different breeds</h5>
+                    <p class="card-text">Check out some other cute puppies!</p>
+                    <a href="#" class="btn btn-primary"><span class="tempcolor">Let's Explore</span></a>
                 </div>
             </div>
             <div class="card col" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="card-body dogcard">
+                    <h5 class="card-title">Adult versions of puppies</h5>
+                    <p class="card-text">They stay cute even when they grow up. Trust me.</p>
+                    <a href="#" class="btn btn-primary"><span class="tempcolor">Let's Explore</span></a>
                 </div>
             </div>
             <div class="card col" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <div class="card-body dogcard">
+                    <h5 class="card-title">"Bark, Woof, Bark"</h5>
+                    <p class="card-text">"Awooooooo!"
+                    </p>
+                    <a class="btn btn-primary text-color" data-toggle="modal" data-target="#myModal">Bark</a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Good dog</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Woof!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
